@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="rus">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Анкета для друзей</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action=" " id="form">
+
+    <h1> Анкета для друзей</h1>
+
+    <div class="anketa_input">
+    <h3> Имя и фамилия</h3>
+    <input type="text" id="name_surname" name="name_surname"  placeholder="Введите имя и фамилию">
+    </div>
+
+    <div class="anketa_input">
+    <h3> Пол </h3>
+    <input type="checkbox" id="genderM" name="genderM">
+    <label> Мужчина </label>
+    </div>
+
+    <div class="anketa_input">
+    <input type="checkbox" id="genderW" name="genderW">
+    <label> Женщина </label>
+    </div>
+
+    <div class="anketa_input">
+    <h3> Дата рождения </h3>
+    <input type="date" id="date" name="date" value="2000-01-01">
+    </div>
+
+    <div class="anketa_input">
+    <h3> Время рождения </h3>
+    <input type="time" id="time" name="time" value="00:00">
+    </div> 
+
+    <div class="anketa_input">
+    <h3> Сколько лет </h3>
+    <input type="number" id="age" name="age" min="0" max="100" step="1">
+    </div>  
+
+    <div class="anketa_input">
+    <h3> Любимый цвет </h3>
+    <input type="color" id="color" name="color" value="#a8f1ff">
+    </div>
+
+    <div class="anketa_input">
+    <h3> Ссылки на соц.сети </h3>
+    <input type="url" id="url1" name="url1">
+    <p></p>
+    <input type="url" id="url2" name="url2">
+    <p></p>
+    <input type="url" id="url3" name="url3">
+    </div>
+    
+    <div class="anketa_input">
+    <h3> Почта </h3>
+    <input type="email" id="email" name="email">
+    </div>
+
+    <div class="anketa_input">
+    <h3> Номер телефона </h3>
+    <input type="tel" id="tel" name="tel">
+    </div>  
+
+    <div class="anketa_input">
+    <h3> На сколько я тебе нравлюсь </h3>
+    <input type="range" id="like" name="like" min="0" max="10">
+    </div>
+
+
+    <div class="final">
+        <input type="reset" value="Заполнить заново"> </input>
+        <p> </p>
+        <input type="submit" value="Отправить"> </input>
+    </div>
+    
+    <div class="final" id="final"></div>
+</form>
+<script src="main.js"></script>
+</body>
+</html>
