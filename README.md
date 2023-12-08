@@ -1,1 +1,1 @@
-[Ссылка на анкету](https://github.com/ksushamzm/Friends)
+[Ссылка на анкету](https://github.com/ksushamzm/Friends.git)
